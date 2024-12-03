@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient for the background */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .card-container {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .MuiCard-root {
+    background-color: #1f2933 !important; /* Dark background for cards */
+    color: #ffffff; /* Light text for readability */
+    border: 1px solid #34495e; /* Subtle border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    border-radius: 12px !important;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+  }
+  
+  .MuiCard-root:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Elevated shadow */
+  }
+  
+  .MuiButton-root {
+    color: #ffffff !important;
+    text-transform: none;
+    background-color: #6c5ce7; /* Stylish purple button */
+    margin-right: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .MuiButton-root:hover {
+    background-color: #a29bfe !important; /* Lighter purple on hover */
+  }
+  
+  .MuiButton-root:last-child {
+    background-color: #e74c3c !important; /* Red for the delete button */
+  }
+  
+  .MuiButton-root:last-child:hover {
+    background-color: #ff6b6b !important; /* Lighter red on hover */
+  }
+  
+  .MuiTypography-h5 {
+    font-weight: bold;
+    color: #74b9ff; /* Accent color for task title */
+  }
+  
+  .MuiTypography-body2, 
+  .MuiTypography-subtitle2 {
+    color: #dfe6e9; /* Muted text for descriptions */
+  }
+  
