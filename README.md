@@ -2,7 +2,8 @@
 
 This is a **React-Redux Task Management Dashboard** project that allows users to manage tasks efficiently. Users can add, edit, delete, and filter tasks, and view a summary of their task statuses with interactive charts and analytics.
 
-![Dashboard Screenshot](./Screenshot 2024-12-04 001213.png)
+![Dashboard Screenshot](./Screenshot%202024-12-04%20001213.png)
+
 
 
 
